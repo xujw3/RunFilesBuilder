@@ -7,7 +7,7 @@
 PROJECT_NAME="lucky"
 
 # 项目版本
-PROJECT_VERSION="v0.2.0"
+PROJECT_VERSION="v2.15.8"
 
 # 项目链接
 PROJECT_URL="https://github.com/gdy666/lucky.git"
