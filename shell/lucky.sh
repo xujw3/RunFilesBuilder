@@ -65,7 +65,7 @@ BUILD() {
     export GOPROXY=https://goproxy.cn,direct
 
     # 编译
-    go build -ldflags "$GO_BUILD_LDFLAGS" -o $BINARY_NAME main.go
+    go build -ldflags "$GO_BUILD_LDFLAGS" -tags "adminweb nomsgpack" -o $BINARY_NAME main.go
 }
 
 # 打包
